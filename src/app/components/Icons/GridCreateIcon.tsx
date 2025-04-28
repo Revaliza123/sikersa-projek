@@ -1,0 +1,23 @@
+import React from "react"
+
+function GridCreateIcon() {
+  return (
+    <svg
+      width="12"
+      height="13"
+      viewBox="0 0 12 13"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M10.5 7.5V10C10.5 10.2652 10.3946 10.5196 10.2071 10.7071C10.0196 10.8946 9.76522 11 9.5 11H2.5C2.23478 11 1.98043 10.8946 1.79289 10.7071C1.60536 10.5196 1.5 10.2652 1.5 10V3C1.5 2.73478 1.60536 2.48043 1.79289 2.29289C1.98043 2.10536 2.23478 2 2.5 2H5V3H2.5V10H9.5V7.5H10.5Z"
+        fill="currentColor"
+      />
+      <path
+        d="M10.5 4H8.5V2H7.5V4H5.5V5H7.5V7H8.5V5H10.5V4Z"
+        fill="currentColor"
+      />
+    </svg>
+  )
+}
+
+export default GridCreateIcon

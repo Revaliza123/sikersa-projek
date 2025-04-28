@@ -1,0 +1,217 @@
+/*
+   * Custom translucent site header
+   */
+
+.site-header {
+  // background-color: rgba(0, 0, 0, 0.85);
+  // -webkit-backdrop-filter: saturate(180%) blur(20px);
+  // backdrop-filter: saturate(180%) blur(20px);
+  width: 100%; // Memastikan header full width
+  color: var(--black-500);
+  border: 0;
+
+  &.light {
+    border-bottom: 1px solid transparent !important;
+  }
+
+  .logo-text {
+    fill: var(--black) !important;
+  }
+}
+
+.header-content {
+  position: sticky;
+  top: 0;
+  border-radius: 0.35rem 0.35rem 0 0;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  height: 4.25rem;
+  border: 1px solid var(--black-50);
+  box-shadow: 2px 0px 24px 0px rgba(225, 230, 235, 0.08);
+  z-index: 1;
+}
+
+.sidebar-mini {
+  // padding-left: 20.25rem;
+  padding-left: 0;
+}
+
+@include media-breakpoint-up(lg) {
+  .sidebar-expand {
+    @media (min-width: 992px) {
+      padding-left: 23rem !important;
+    }
+  }
+  
+  .sidebar-mini {
+    padding-left: 0;
+    
+    @media (max-width: 992px) {
+      padding-left: 0;
+    }
+}
+}
+
+@include media-breakpoint-up(lg) {
+  .sidebar-expand.v2 {
+    padding-left: 16.25rem !important;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .searchform {
+    width: 360px !important;
+  }
+}
+
+.app-title {
+  font-size: 1.35rem;
+}
+
+.site-header a:not(.dropdown-item-link),
+.site-header .d-md-inline-block.dropdown .link {
+  // padding: 0.45em 0.55em;
+  &:hover {
+    color: var(--white);
+    text-decoration: none;
+  }
+
+  &.active {
+    color: var(--white);
+  }
+
+  .dropdown-menu.show {
+    margin-top: 18px !important;
+    display: block;
+  }
+}
+
+.dropdown-toggle::after {
+  margin-right: 0.55em;
+}
+
+.site-header .btn-bell {
+  color: #999;
+  &:hover {
+    color: #fff;
+    transition: ease-in-out color 0.15s;
+  }
+}
+
+.site-header .mmenu.dropdown {
+  .link {
+    padding: 0.65em 0;
+
+    &.active {
+      padding: 0.15em 0 !important;
+    }
+  }
+
+  .dropdown-item {
+    padding: 0.7em 1rem;
+    font-weight: 600;
+    color: var(--black-700);
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.light-th {
+  z-index: 9;
+  position: absolute;
+  left: 0.573rem;
+  top: 0.15rem;
+  color: var(--white);
+}
+
+.dark-th {
+  z-index: 9;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.15rem;
+  color: var(--primary-cc);
+}
+
+/** NAV EDIT MODE **/
+.add-submenu {
+  background: rgba(var(--primary-rgb), 0.075);
+
+  &:hover,
+  &:focus {
+    background: rgba(var(--primary-rgb), 0.075);
+  }
+}
+
+.move-submenu {
+  visibility: hidden;
+  z-index: 999 !important;
+  position: absolute;
+  right: 0;
+  margin-top: -1.5rem;
+
+  .up {
+    position: absolute;
+    right: 5px;
+    margin-bottom: 10px;
+  }
+
+  .down {
+    position: absolute;
+    right: 5px;
+    margin-top: 10px;
+  }
+}
+
+/*
+   * Extra utilities
+   */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.hide-toogle {
+  .dropdown-toggle::after {
+    display: none !important;
+  }
+}
+
+.active.single-menu {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  .label-primary {
+    margin-top: 0;
+    color: var(--white) !important;
+    padding: 0.2935em 1em !important;
+  }
+}
+
+.avatar-img {
+  width: 2.75rem;
+  height: 2.75rem;
+
+  &.rounded-circle {
+    border-radius: 50% !important;
+    overflow: hidden;
+  }
+
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.left-dropdown2 {
+  right: 2.75rem !important;
+}

@@ -1,0 +1,40 @@
+.text-level-1 {
+  color: #29b34f;
+}
+.text-level-2 {
+  color: #b3cb2c;
+}
+.text-level-3 {
+  color: #f2c914;
+}
+.text-level-4 {
+  color: #e77325;
+}
+.text-level-5 {
+  color: #dc2d26;
+}
+
+.priority-badge-level-1 {
+  background-color: lighten(#29b34f, 40%);
+  color: #29b34f;
+}
+
+.priority-badge-level-2 {
+  background-color: lighten(#b3cb2c, 40%);
+  color: #b3cb2c;
+}
+
+.priority-badge-level-3 {
+  background-color: lighten(#f2c914, 40%);
+  color: #f2c914;
+}
+
+.priority-badge-level-4 {
+  background-color: lighten(#e77325, 40%);
+  color: #e77325;
+}
+
+.priority-badge-level-5 {
+  background-color: lighten(#dc2d26, 40%);
+  color: #dc2d26;
+}

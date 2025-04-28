@@ -1,0 +1,9 @@
+import React from 'react'
+
+export const ReplyIcon2 = () => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" viewBox="0 0 15 13" fill="none">
+      <path d="M5.83333 3.58333V0.25L0 6.08333L5.83333 11.9167V8.5C10 8.5 12.9167 9.83333 15 12.75C14.1667 8.58333 11.6667 4.41667 5.83333 3.58333Z" fill="#006F5F" />
+    </svg>
+  )
+}

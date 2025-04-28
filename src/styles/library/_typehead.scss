@@ -1,0 +1,9 @@
+.project-search {
+  .form-control.rbt-input {
+    padding-left: 40px !important;
+    background-color: var(--black-5) !important;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

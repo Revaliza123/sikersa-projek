@@ -1,0 +1,26 @@
+@import "react-loading-skeleton/dist/skeleton.css";
+
+.react-loading-skeleton {
+  --base-color: var(--black-100);
+  --highlight-color: var(--black-25);
+  --animation-duration: 1.5s;
+  --animation-direction: normal;
+  --pseudo-element-display: block;
+}
+
+.loading-absolute {
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.line-height-0 {
+  line-height: 0;
+}

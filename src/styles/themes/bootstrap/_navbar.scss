@@ -1,0 +1,63 @@
+.navbar-light .navbar-nav .nav-link a {
+  color: var(--black-400);
+  text-decoration: none;
+
+  &.active {
+    color: $navbar-light-active-color;
+  }
+}
+
+.navbar-light .dropdown-item {
+  a {
+    color: var(--black-400);
+    text-decoration: none;
+  }
+
+  &:active a {
+    color: var(--primary-cc);
+  }
+}
+
+.nav.menu {
+  .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: 500;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.86rem;
+    padding: 0.86rem 0;
+    color: #e9ebed;
+
+    .icon {
+      color: var(--black-600);
+    }
+
+    &.primary {
+      color: var(--primary) !important;
+    }
+  }
+
+  &.sub {
+    .nav-link {
+      font-family: "Cabin", sans-serif;
+      font-size: 0.95rem;
+      line-height: 1;
+      font-weight: 300;
+      color: var(--black-600);
+      padding: 0.3rem 0 0.3rem 0.35rem;
+      line-height: 1.5;
+
+      &:hover {
+        color: var(--primary);
+      }
+
+      &.disabled {
+        color: #363f57;
+
+        &:before {
+          color: #363f57;
+        }
+      }
+    }
+  }
+}

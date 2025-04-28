@@ -1,0 +1,34 @@
+@import "~animate.css";
+@import "~aos/src/sass/aos.scss";
+@import "~react-perfect-scrollbar/dist/css/styles.css";
+
+// @import "./bootstrap/bootstrap.scss";
+@import "./react-paginate";
+@import "./react-typehead";
+@import "./react-datepicker";
+@import "./typehead";
+@import "./mapbox";
+@import "./swiper";
+@import "./ckeditor";
+
+.tox-statusbar__branding {
+  display: none !important;
+}
+
+.dropdown.no-caret {
+  .dropdown-toggle:after {
+    display: none;
+  }
+}
+
+.text-black {
+  color: var(--black);
+}
+
+// .form-control.is-invalid {
+//   border-width: 1px !important;
+// }
+
+.toast-body {
+  margin-top: -1px;
+}

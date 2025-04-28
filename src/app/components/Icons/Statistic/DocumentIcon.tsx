@@ -1,0 +1,48 @@
+import React from "react"
+
+export function DocumentIcon() {
+  return (
+    <svg
+      width="32"
+      height="32"
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M19.334 2.66675H8.00065C7.29341 2.66675 6.61513 2.9477 6.11503 3.4478C5.61494 3.94789 5.33398 4.62617 5.33398 5.33341V26.6667C5.33398 27.374 5.61494 28.0523 6.11503 28.5524C6.61513 29.0525 7.29341 29.3334 8.00065 29.3334H24.0007C24.7079 29.3334 25.3862 29.0525 25.8863 28.5524C26.3864 28.0523 26.6673 27.374 26.6673 26.6667V10.0001L19.334 2.66675Z"
+        stroke="var(--primary)"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M18.666 2.66675V10.6667H26.666"
+        stroke="var(--primary)"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M21.3327 17.3333H10.666"
+        stroke="var(--secondary)"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M21.3327 22.6667H10.666"
+        stroke="var(--secondary)"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M13.3327 12H10.666"
+        stroke="var(--secondary)"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}

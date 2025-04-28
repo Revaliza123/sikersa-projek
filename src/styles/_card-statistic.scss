@@ -1,0 +1,32 @@
+@include media-breakpoint-up(md) {
+  .col-card-statistic {
+    position: relative;
+    width: 50%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .col-card-statistic {
+    position: relative;
+    width: 20%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+}
+@include media-breakpoint-up(xl) {
+  .col-card-statistic {
+    position: relative;
+    width: 20%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+}
+@include media-breakpoint-up(xxl) {
+  .col-card-statistic {
+    position: relative;
+    width: 20%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+  }
+}

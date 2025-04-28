@@ -1,0 +1,27 @@
+import React from "react"
+
+export default function PocketIcon() {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M3.83317 2.5H17.1665C17.6085 2.5 18.0325 2.67559 18.345 2.98816C18.6576 3.30072 18.8332 3.72464 18.8332 4.16667V9.16667C18.8332 11.3768 17.9552 13.4964 16.3924 15.0592C14.8296 16.622 12.71 17.5 10.4998 17.5C9.40549 17.5 8.32185 17.2845 7.31081 16.8657C6.29976 16.4469 5.3811 15.833 4.60728 15.0592C3.04448 13.4964 2.1665 11.3768 2.1665 9.16667V4.16667C2.1665 3.72464 2.3421 3.30072 2.65466 2.98816C2.96722 2.67559 3.39114 2.5 3.83317 2.5V2.5Z"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M7.1665 8.33325L10.4998 11.6666L13.8332 8.33325"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}

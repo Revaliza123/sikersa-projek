@@ -1,0 +1,24 @@
+@import "./function/_colors.scss";
+
+@import "./layouts/index";
+
+@import "./variables";
+@import "./mixin/themes";
+
+@import "./root";
+
+/** BOOTSTRAP */
+@import "./bootstrap/bootstrap.scss";
+
+$color-custom-dark: #262b3c;
+html[theme-mode="dark"] body[theme-color="enamel-blue"] {
+  --body-bg: #222736 !important;
+  .site-header {
+    background: $color-custom-dark !important;
+    border-color: $color-custom-dark !important;
+  }
+
+  .sidenav {
+    border-color: $color-custom-dark !important;
+  }
+}

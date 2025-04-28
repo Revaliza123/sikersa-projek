@@ -1,0 +1,78 @@
+@import "mapbox-gl/dist/mapbox-gl.css";
+
+.map-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.mapboxgl-popup-content {
+  background: var(--white);
+}
+.mapboxgl-popup-close-button {
+  color: var(--black);
+}
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+  border-top-color: var(--white);
+}
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
+  border-bottom-color: var(--white);
+}
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+  border-right-color: var(--white);
+}
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+  border-left-color: var(--white);
+}
+.mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip {
+  border-bottom-color: var(--white);
+}
+.mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {
+  border-top-color: var(--white);
+}
+
+.container-tooltip-map {
+  font-family: Montserrat, sans-serif;
+  .popup-mapbox-title {
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .img-parent {
+    img {
+      height: 90px;
+      width: 100%;
+      object-fit: contain;
+      background-color: var(--black-25);
+      border-radius: 5px;
+    }
+  }
+  button.btn-close-toottip {
+    position: absolute;
+    right: -25px;
+    top: -25px;
+    border-radius: 50%;
+  }
+  table {
+    border-radius: 5px;
+    overflow: hidden;
+  }
+}
+
+.mapboxgl-popup {
+  &.ideologi-indeks-toleransi {
+    width: 300px;
+    max-width: 300px;
+    border: solid var(--border-color) 1px;
+
+    .mapboxgl-popup-content {
+      padding: 0px;
+    }
+
+    .mapboxgl-popup-close-button {
+      font-size: 1.5rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+}

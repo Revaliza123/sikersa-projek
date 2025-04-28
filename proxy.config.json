@@ -1,0 +1,25 @@
+[
+    {
+      "context": "/apps",
+      "target": "http://192.168.1.28:30002",
+      "docs": "http://192.168.1.28:30002/docs#/",
+      "logLevel": "debug",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/apps": ""
+      }
+    },
+    {
+      "context": "/location",
+      "target": "http://192.168.1.18:30001",
+      "docs": "http://192.168.1.18:30001/docs#",
+      "logLevel": "debug",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "/location": ""
+      }
+    }
+  ]
+  

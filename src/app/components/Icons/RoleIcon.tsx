@@ -1,0 +1,27 @@
+import React from "react"
+
+export default function RoleIcon() {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M3.33341 2.5H16.6667C17.1088 2.5 17.5327 2.67559 17.8453 2.98816C18.1578 3.30072 18.3334 3.72464 18.3334 4.16667V9.16667C18.3334 11.3768 17.4554 13.4964 15.8926 15.0592C14.3298 16.622 12.2102 17.5 10.0001 17.5C8.90573 17.5 7.8221 17.2845 6.81105 16.8657C5.80001 16.4469 4.88135 15.833 4.10752 15.0592C2.54472 13.4964 1.66675 11.3768 1.66675 9.16667V4.16667C1.66675 3.72464 1.84234 3.30072 2.1549 2.98816C2.46746 2.67559 2.89139 2.5 3.33341 2.5V2.5Z"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M6.66675 8.33334L10.0001 11.6667L13.3334 8.33334"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}

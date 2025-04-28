@@ -1,0 +1,27 @@
+.popover {
+  background-color: var(--white) !important;
+}
+.popover-header {
+  // background-color: var(--black-50) !important;
+  font-size: 1.15rem !important;
+  border-bottom: none !important;
+}
+.popover.hide-arrow .popover-arrow {
+  display: none !important;
+}
+.popover-body {
+  padding-top: 0 !important;
+}
+
+.bs-popover-top > .popover-arrow::before {
+  border-top-color: rgba(0, 0, 0, 0.2) !important;
+}
+.bs-popover-bottom > .popover-arrow::before {
+  border-bottom-color: rgba(0, 0, 0, 0.2) !important;
+}
+.bs-popover-top > .popover-arrow::after {
+  border-top-color: var(--white) !important;
+}
+.bs-popover-bottom > .popover-arrow::after {
+  border-bottom-color: var(--white) !important;
+}

@@ -1,0 +1,61 @@
+/**
+ * lembang THEME SHAPE
+ * --button-border-radius-...
+ */
+$eui-lembang-theme-shape: (
+  "square": (
+    "border-radius": 0,
+    "border-radius-sm": 0,
+    "border-radius-lg": 0,
+    "border-radius-pill": 0,
+  ),
+  "rounded": (
+    "border-radius": 0.3rem,
+    "border-radius-sm": 0.2rem,
+    "border-radius-lg": 0.45rem,
+    "border-radius-pill": 50rem,
+  ),
+  "circle": (
+    "border-radius": 3rem,
+    "border-radius-sm": 3rem,
+    "border-radius-lg": 3rem,
+    "border-radius-pill": 3rem,
+  ),
+) !default;
+
+/** COMPONENT VARIABLE STYLE */
+$eui-lembang-theme-component: (
+  "body-bg": #e4ebe9,
+  //var(--black-75, #f5f8fa),
+  "margin-xmini": 0.25rem,
+  "margin-mini": 0.5rem,
+  "margin-tiny": 0.75rem,
+  "margin-small": 1rem,
+  "margin-medium": 1.15rem,
+  "margin-large": 1.5rem,
+  "margin-big": 1.75rem,
+  "margin-huge": 2rem,
+  "margin-massive": 2.25rem,
+
+  "padding-xmini": 0.25rem,
+  "padding-mini": 0.5rem,
+  "padding-tiny": 0.75rem,
+  "padding-small": 1rem,
+  "padding-medium": 1.15rem,
+  "padding-large": 1.5rem,
+  "padding-big": 1.75rem,
+  "padding-huge": 2rem,
+  "padding-massive": 2.25rem,
+
+  "border-thin": 1px,
+  "border-semibold": 2px,
+  "border-bold": 3px,
+  "border-xbold": 4px,
+  "border-xxbold": 5px,
+
+  "shadow-small": 2px,
+  "shadow-medium": 4px,
+  "shadow-large": 6px,
+  "shadow-big": 8px,
+  "shadow-huge": 10px,
+) !default;

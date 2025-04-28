@@ -1,0 +1,28 @@
+@use "sass:math";
+
+/**
+ * @n: hexcolor 
+ */
+@function hexToRGB($hex) {
+  @return red($hex), green($hex), blue($hex);
+}
+
+/**
+ * @n: hexcolor 
+ */
+
+@function colorContrast($n, $white: white, $black: black) {
+  $color-brightness: round(
+    (red($n) * 299) + (math.div((green($n) * 587) + (blue($n) * 114), 1000))
+  );
+  $light-color: round(
+    (red($white) * 299) +
+      (math.div((green($white) * 587) + (blue($white) * 114), 1000))
+  );
+
+  @if abs($color-brightness) < (math.div($light-color, 2)) {
+    @return $white;
+  } @else {
+    @return $black;
+  }
+}

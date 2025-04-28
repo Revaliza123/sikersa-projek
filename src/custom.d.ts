@@ -1,0 +1,11 @@
+declare module "*.module.css"
+declare module "*.scss"
+declare module "*.jpg"
+declare module "*.png"
+declare module "*.jpeg"
+declare module "*.gif"
+declare module "*.svg"
+declare module "echarts/i18n/langDE"
+declare module "antd"
+
+declare module "@ckeditor/ckeditor5-inspector"

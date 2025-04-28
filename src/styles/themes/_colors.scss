@@ -1,0 +1,126 @@
+/**
+ * COLORS
+ * --
+ */
+$sidesa: (
+  "colors": (
+    /** Main */ "primary": #4CAF50,
+    "secondary": #F5C51B,
+
+    //Chart
+    "c1": #a6eb9d,
+    "c2": #fbe947,
+    "c3": #9193fb,
+
+    /** Sentiment */ "neutral": #44566c,
+    "positive": #002db3,
+    "negative": #b32400,
+
+    /** State */ "success": #0ab39c,
+    "info": #189ee1,
+    "danger": #e11818,
+
+    /** neutral variant element color */ "light": #f8f9fa,
+    "dark": #f5f8fa,
+  ),
+  "mode": (
+    "light": (
+      "black": #474b55,
+      "white": #fff,
+    ),
+    "dark": (
+      "black": #fff,
+      "white": #141722,
+    ),
+  ),
+) !default;
+
+$sidesa-merah: (
+  "colors": (
+    /** Main */ "primary": #ff6363,
+    "secondary": #f8b400,
+
+    //Chart
+    "c1": #125b50,
+    "c2": #519259,
+    "c3": #faf5e4,
+
+    /** Sentiment */ "neutral": #404040,
+
+    /** State */ "success": #0ab39c,
+    "info": #189ee1,
+    "danger": #e11818,
+
+    /** neutral variant element color */ "dark": #1c1c24,
+  ),
+  "mode": (
+    "light": (
+      "black": #44556c,
+      "white": #fff,
+    ),
+    "dark": (
+      "black": #fff,
+      "white": #141722,
+    ),
+  ),
+) !default;
+
+$sidesa-biru: (
+  "colors": (
+    /** Main */ "primary": #0963da,
+    "secondary": #f1416c,
+
+    //Chart
+    "c1": #ffb44e,
+    "c2": #6bcb77,
+    "c3": #5d8bf4,
+
+    /** Sentiment */ "neutral": #404040,
+
+    /** State */ "success": #0ab39c,
+    "info": #189ee1,
+    "danger": #e11818,
+
+    /** neutral variant element color */ "dark": #1c1c24,
+  ),
+  "mode": (
+    "light": (
+      "black": #44556c,
+      "white": #fff,
+    ),
+    "dark": (
+      "black": #fff,
+      "white": #141722,
+    ),
+  ),
+) !default;
+
+$sidesa-oren: (
+  "colors": (
+    /** Main */ "primary": #f0bb62,
+    "secondary": #519259,
+
+    //Chart
+    "c1": #064635,
+    "c2": #f4eea9,
+    "c3": #66806a,
+
+    /** Sentiment */ "neutral": #404040,
+
+    /** State */ "success": #0ab39c,
+    "info": #189ee1,
+    "danger": #e11818,
+
+    /** neutral variant element color */ "dark": #1c1c24,
+  ),
+  "mode": (
+    "light": (
+      "black": #44556c,
+      "white": #fff,
+    ),
+    "dark": (
+      "black": #fff,
+      "white": #141722,
+    ),
+  ),
+) !default;

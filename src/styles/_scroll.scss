@@ -1,0 +1,33 @@
+.filter-subheader::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* Track */
+.filter-subheader::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+.filter-subheader::-webkit-scrollbar-thumb {
+  height: 0px;
+  border: 4px solid rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  background-color: var(--black-100);
+  box-shadow:
+    inset -1px -1px 0px rgba(0, 0, 0, 0.05),
+    inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow:
+    inset -1px -1px 0px rgba(0, 0, 0, 0.05),
+    inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+
+.filter-subheader::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+.filter-subheader::-webkit-scrollbar-corner {
+  background-color: transparent;
+}

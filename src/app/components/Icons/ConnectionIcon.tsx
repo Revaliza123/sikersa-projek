@@ -1,0 +1,41 @@
+import React from "react"
+
+export default function ConnectionIcon() {
+  return (
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M10 16.6667H10.0083"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M7.1084 13.425C7.9544 12.824 8.96646 12.5011 10.0042 12.5011C11.042 12.5011 12.0541 12.824 12.9001 13.425"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4.16675 10.4583C5.81388 9.08638 7.88975 8.3351 10.0334 8.3351C12.1771 8.3351 14.2529 9.08638 15.9001 10.4583"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M1.18335 7.49999C3.6187 5.3533 6.7536 4.16887 10 4.16887C13.2464 4.16887 16.3813 5.3533 18.8167 7.49999"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  )
+}
